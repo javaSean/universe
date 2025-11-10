@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🕒 Time Zone Converter
 
-## Getting Started
+A sleek, responsive **Time Zone Converter App** built with **Next.js**.  
+It allows users to convert times between different world time zones using an intuitive interface inspired by the design of [JavaSean.com](https://javasean.com).
 
-First, run the development server:
+![Time Zone Converter Screenshot](public/preview.png)
+
+---
+
+## ✨ Features
+
+- Conversion between any two time zones using the **IANA time zone database**
+- Switch between **12-hour** and **24-hour** formats
+- Clean, responsive layout with tropical visuals inspired by Lombok, Indonesia
+- Built entirely with **React**, **Next.js**, and vanilla **CSS**
+- Uses JavaScript’s native `Intl` API for accurate time zone calculations
+
+---
+
+## 🧰 Tech Stack
+
+- **Framework:** [Next.js](https://nextjs.org/)
+- **Language:** JavaScript (ES6+)
+- **Styling:** Custom CSS (no Tailwind or external libraries)
+- **Time Handling:** JavaScript `Intl.DateTimeFormat`
+
+---
+
+## 🚀 Getting Started
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/javasean/universe.git
+cd universe/time-zone-converter
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Start the Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in a browser to view the app.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧭 Usage
 
-## Learn More
+1. Choose the source and target time zones from the dropdown menus.  
+2. Enter a time to convert.  
+3. Use the toggle to switch between 12-hour and 24-hour display modes.  
+4. The converted time updates instantly.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎨 Design Notes
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The app shares its aesthetic with [JavaSean.com](https://javasean.com), featuring:
+- A background image from Lombok, Indonesia 🌴  
+- Warm orange accent color (`#f29a2e`)  
+- The `cursive sans Fallback` font variable for the title  
 
-## Deploy on Vercel
+This standalone version removes the JavaSean site header and footer for simplicity and focus.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🧑‍💻 Author
+
+**Sean (JavaSean)**  
+🌐 [JavaSean.com](https://javasean.com)  
+📷 [Instagram](https://instagram.com/javasean)
+
+---
+
+## 📄 License
+
+Released under the [MIT License](LICENSE).
