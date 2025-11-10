@@ -1,6 +1,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-cursive-sans: 'Righteous', 'Comic Neue', cursive;
+  --font-inter: 'Inter', sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -9,6 +11,7 @@
     --foreground: #ededed;
   }
 }
+
 
 html,
 body {

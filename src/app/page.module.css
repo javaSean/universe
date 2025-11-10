@@ -17,6 +17,11 @@
   background-color: var(--background);
 }
 
+.wrapper {
+  min-height: 100vh;
+  background: url('/images/palm_trees.webp') center / cover no-repeat fixed;
+}
+
 .main {
   display: flex;
   min-height: 100vh;
@@ -25,7 +30,6 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  background-color: var(--foreground);
   padding: 120px 60px;
 }
 
